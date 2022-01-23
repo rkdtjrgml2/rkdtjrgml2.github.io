@@ -28,15 +28,15 @@ if (savedUsername === null) {
 }
 
 
-loginInput.addEventListener("click",placeholder);
+// loginInput.addEventListener("click",placeholder);
 
-function placeholder() {
-    loginInput.placeholder="";
-}
+// function placeholder() {
+//     loginInput.placeholder="";
+// }
 
-loginInput.addEventListener("mouseleave",leaveplaceholder);
+// loginInput.addEventListener("mouseleave",leaveplaceholder);
 
-function leaveplaceholder() {
-    loginInput.placeholder="What is your name?";
-}
+// function leaveplaceholder() {
+//     loginInput.placeholder="What is your name?";
+// }
 
