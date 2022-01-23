@@ -6,6 +6,6 @@ const bgImage = document.createElement("img");
 
 bgImage.src = `img/${chosenImage}`;
 
-document.bgImage.className += " cover";
+bgImage.className = "cover";
 
 document.body.appendChild(bgImage);
