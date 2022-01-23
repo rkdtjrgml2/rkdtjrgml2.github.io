@@ -2,7 +2,7 @@
     display: none;
 }
 
-img {
+.cover {
     position: fixed; 
     top: 0; 
     left: 0; 
@@ -10,8 +10,4 @@ img {
     /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
-  }
-
-.cover {
-    height: 100vh;
 }
