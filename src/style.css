@@ -10,6 +10,7 @@
     /* Preserve aspet ratio */
     min-width: 100%;
     min-height: 100%;
+    z-index: 0;
 }
 
 .clock {
@@ -17,12 +18,14 @@
 	margin: 10px auto;
 	border: 1px solid #000000;
 	position: relative;
+    z-index: 1;
 }
-.weather {
+#weather {
 	width: 100%;
 	vertical-align: middle;
+    z-index: 1;
 }
-.login-form {
+#login-form {
 	padding: 5px 10px;
 	background-color: yellow;
 	text-align: center;
@@ -30,4 +33,5 @@
 	top: 50%;
 	left: 50%;
 	transform: translate( -50%, -50% );
+    z-index: 1;
 }
