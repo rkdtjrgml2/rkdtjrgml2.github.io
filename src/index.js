@@ -15,6 +15,6 @@ function Timer() {
   const Seconds = String(date.getSeconds).padStart(2, "0");
   clockTitle.innerText = `${Day}d ${Hours}h ${Minutes}m ${Seconds}s `;
 }
-
+//수정해봄
 Timer();
 setInterval(Timer, 1000);
