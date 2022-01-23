@@ -11,3 +11,7 @@ img {
     min-width: 100%;
     min-height: 100%;
   }
+
+.cover {
+    height: 100vh;
+}
