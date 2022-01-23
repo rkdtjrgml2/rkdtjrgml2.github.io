@@ -30,15 +30,6 @@ if (savedUsername === null) {
         loginInput.placeholder="";
     }
     
-    loginInput.addEventListener("mouseleave",leaveplaceholder);
-    
-    function leaveplaceholder() {
-        loginInput.placeholder="What is your name?";
-    }
-    
-
-
-
 } else {
     paintGreetings(username);
 }
