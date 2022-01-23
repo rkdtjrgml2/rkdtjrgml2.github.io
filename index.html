@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
 </head>
 <body>
+    <form class="hidden" id="login-form">
+        <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In" />        
+    </form>
+
+
+    <h1 class="hidden" id="greeting"></h1>
     <h1>Hello!!</h1>
     <h2 class="js-clock"></h2>
     <script src="src/index.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>
