@@ -6,6 +6,10 @@ body {
 	font: inherit;
 	vertical-align: baseline;
 	cursor: url("../img/cursor-pointer.png"), auto;
+
+    display: flex;
+	flex-direction: column;
+	padding: 180px 50px;
 }
 
 button:hover,
@@ -18,11 +22,11 @@ input:active {
 }
 
 
-#contents {
+/* #contents {
 	display: flex;
 	flex-direction: column;
 	padding: 180px 50px;
-}
+} */
 
 
 .hidden {
