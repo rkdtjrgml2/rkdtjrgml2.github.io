@@ -62,8 +62,8 @@ function placeholder() {
     toDoInput.placeholder="";
 }
 
-toDoInput.addEventListener("mouseleave",leaveplaceholder);
+// toDoInput.addEventListener("mouseleave",leaveplaceholder);
 
-function leaveplaceholder() {
-    toDoInput.placeholder="Write a to do and press enter";
-}
+// function leaveplaceholder() {
+//     toDoInput.placeholder="Write a to do and press enter";
+// }
