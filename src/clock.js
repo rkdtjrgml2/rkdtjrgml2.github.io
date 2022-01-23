@@ -1,4 +1,6 @@
-const clock = document.querySelector(".clock");
+//실시간 시계
+
+const clock = document.querySelector("h2");
 
 function getClock() {
     const date = new Date();
@@ -10,3 +12,9 @@ function getClock() {
 
 getClock();
 setInterval(getClock,1000);
+
+
+
+//투두리스트
+
+

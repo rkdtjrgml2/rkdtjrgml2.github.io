@@ -3,36 +3,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>JS Seok-hee</title>
 </head>
 <body>
+    <div id="contents">
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <h2 class="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
         <input
             required
             maxlength="15"
             type="text"
-            placeholder="What is your name?"
+            placeholder="  What is your name?"
         />
-        <input type="submit" value="Log In" />        
+        <input id="btn" type="submit" value="Log In" />        
     </form>
     <h1 class="hidden" id="greeting"></h1>
-
-    <h2 class="clock">00:00:00</h2>
-    
     <form id="todo-form">
-        <input type="text" placeholder="write a To Do and Press Enter" required />
+        <input type="text" placeholder="Write a to do and press enter" required />
     </form>
-    <ul id="todo-list"></ul>
+    <div class="container">
 
-    <div id="weather">
-        <span></span>
-        <span></span>
+    <ul id="todo-list"></ul></div>
     </div>
-
+    
+    
     <script src="src/greetings.js"></script>
     <script src="src/clock.js"></script>
     <script src="src/todo.js"></script>
-    <script src="src/background.js"></script>
+    
     <script src="src/weather.js"></script>
+    <script src="src/background.js"></script>
 </body>
 </html>
