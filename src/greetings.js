@@ -37,6 +37,6 @@ function placeholder() {
 loginInput.addEventListener("mouseleave",leaveplaceholder);
 
 function leaveplaceholder() {
-    loginInput.placeholder="Write a to do and press enter";
+    loginInput.placeholder="What is your name?";
 }
 
