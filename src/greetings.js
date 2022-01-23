@@ -28,5 +28,15 @@ if (savedUsername === null) {
 }
 
 
+loginInput.addEventListener("click",placeholder);
 
+function placeholder() {
+    loginInput.placeholder="";
+}
+
+loginInput.addEventListener("mouseleave",leaveplaceholder);
+
+function leaveplaceholder() {
+    loginInput.placeholder="Write a to do and press enter";
+}
 
