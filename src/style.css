@@ -23,7 +23,7 @@
 #weather {
 	width: 100%;
 	vertical-align: middle;
-    z-index: 2;
+    z-index: 1;
 }
 #login-form {
 	padding: 5px 10px;
