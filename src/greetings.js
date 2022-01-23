@@ -23,20 +23,25 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 if (savedUsername === null) {
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     loginForm.addEventListener("submit", onLoginSubmit);
+
+    loginInput.addEventListener("click",placeholder);
+
+    function placeholder() {
+        loginInput.placeholder="";
+    }
+    
+    loginInput.addEventListener("mouseleave",leaveplaceholder);
+    
+    function leaveplaceholder() {
+        loginInput.placeholder="What is your name?";
+    }
+    
+
+
+
 } else {
     paintGreetings(username);
 }
 
 
-loginInput.addEventListener("click",placeholder);
-
-function placeholder() {
-    loginInput.placeholder="";
-}
-
-loginInput.addEventListener("mouseleave",leaveplaceholder);
-
-function leaveplaceholder() {
-    loginInput.placeholder="What is your name?";
-}
 
